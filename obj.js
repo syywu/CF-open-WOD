@@ -17,6 +17,7 @@ const workoutOfTheDay =[
 
 
 ];
+console.log(workoutOfTheDay)
 
 
 
