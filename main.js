@@ -21,6 +21,9 @@ getRandomWod();
 function displayWod(){
    
     wodName.textContent = randomWod['name']
+    time.textContent = `Time: ${randomWod['time']}`
+    rounds.textContent = `Rounds: ${randomWod['rounds']}`
+    workout.textContent = randomWod['wod']
 }
 displayWod();
 // next button to get next wod
