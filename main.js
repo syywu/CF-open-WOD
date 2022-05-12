@@ -2,6 +2,7 @@ const wodName = document.querySelector('h2')
 const time = document.querySelector('#time')
 const rounds = document.querySelector('#rounds')
 const workout = document.querySelector('#wod')
+const nextBtn = document.querySelector('#next-button')
 let randomWod;
 
 
@@ -12,7 +13,7 @@ function getRandomWod(){
     let random = Math.floor(Math.random() * workoutOfTheDay.length)
     randomWod = workoutOfTheDay[random]
     return randomWod;
-displayWod();
+
 }
 
 getRandomWod();
@@ -21,5 +22,7 @@ function displayWod(){
    
     wodName.textContent = randomWod['name']
 }
-
+displayWod();
 // next button to get next wod
+
+nextBtn.addEventListener('click', getRandomWod)
