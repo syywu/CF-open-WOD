@@ -1,18 +1,18 @@
 const workoutOfTheDay =[
-{name: 'Open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters"},
-{name: 'Open 21.4', time: '7 minutes', rounds: 1, wod: "1 Deadlift,1 Clean,1 Hang Clean,1 Jerk"},
-{name: 'Open 21.2', time: '20 minutes', rounds: 1, wod: "10 Dumbbell Snatches,15 Burpee Box Jump Overs,20 Dumbbell Snatches,15 Burpee Box Jump Overs,30 Dumbbell Snatches,15 Burpee Box Jump Overs,40 Dumbbell Snatches,50 Dumbbell Snatches,15 Burpee Box Jump Overs"},
-{name: 'Open 21.1', time: '15 minutes', rounds: 3, wod: "1-3-6-9-15-21 Wall Walks,10-30-60-90-150-210 Double-Unders"},
-{name: 'Open 20.5', time: '20 minutes', rounds: 1, wod: "40 Ring Muscle-Ups,80 calorie Row,120 Wall Ball Shots"},
-{name: 'Open 20.4', time: '20 minutes', rounds: 1, wod: "30 Box Jumps,15 Clean-and-Jerks,30 Box Jumps,15 Clean-and-Jerks,30 Box Jumps,10 Clean-and-Jerks,30 Single-Leg Squats,10 Clean-and-Jerks,30 Single-Leg Squats,5 Clean-and-Jerks,30 Single-Leg Squats,5 Clean-and-Jerks"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
-// {name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'OPEN 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters"},
+{name: 'OPEN 21.4', time: '7 minutes', rounds: 1, wod: "1 Deadlift, 1 Clean, 1 Hang Clean, 1 Jerk"},
+{name: 'OPEN 21.2', time: '20 minutes', rounds: 1, wod: "10 Dumbbell Snatches, 15 Burpee Box Jump Overs, 20 Dumbbell Snatches, 15 Burpee Box Jump Overs, 30 Dumbbell Snatches, 15 Burpee Box Jump Overs, 40 Dumbbell Snatches, 50 Dumbbell Snatches, 15 Burpee Box Jump Overs"},
+{name: 'OPEN 21.1', time: '15 minutes', rounds: 3, wod: "1-3-6-9-15-21 Wall Walks, 10-30-60-90-150-210 Double-Unders"},
+{name: 'OPEN 20.5', time: '20 minutes', rounds: 1, wod: "40 Ring Muscle-Ups, 80 calorie Row, 120 Wall Ball Shots"},
+{name: 'OPEN 20.4', time: '20 minutes', rounds: 1, wod: "30 Box Jumps, 15 Clean-and-Jerks, 30 Box Jumps, 15 Clean-and-Jerks, 30 Box Jumps, 10 Clean-and-Jerks, 30 Single-Leg Squats, 10 Clean-and-Jerks, 30 Single-Leg Squats, 5 Clean-and-Jerks, 30 Single-Leg Squats, 5 Clean-and-Jerks"},
+{name: 'OPEN 20.3', time: '9 minutes', rounds: 3, wod: "21-15-9 Deadlifts, Handstand Push-Ups, 21-15-9 Deadlifts, 50 foot Handstand Walk"},
+{name: 'OPEN 20.2', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
+{name: 'open 21.3', time: '15 minutes', rounds: 3, wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)"},
 
 
 
@@ -20,24 +20,7 @@ const workoutOfTheDay =[
 console.log(workoutOfTheDay)
 
 
-
-// OPEN 20.3
-// 2020 CrossFit Open WOD #3
-// For Time
-// 21-15-9 Reps of:
-// Deadlifts (225/155 lb)
-// Handstand Push-Ups
-
-// Then, 21-15-9 Reps of:
-// Deadlifts (315/205 lb)
-// 50 foot Handstand Walk
-
-// Time Cap: 9 minutes
-// To-Do
-// Favorites
-// Add to...
-// CrossFit Games Open, 21-15-9, CrossFit Games (All Stages), CrossFit Games Open 2020
-// OPEN 20.2
+// 
 // 2020 CrossFit Open WOD #2
 // AMRAP in 20 minutes
 // 4 Dumbbell Thrusters (2x50/35 lb)

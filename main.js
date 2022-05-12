@@ -20,7 +20,7 @@ getRandomWod();
 
 function displayWod(){
    
-    wodName.textContent = randomWod['name']
+    wodName.textContent = randomWod['name'].toUpperCase()
     time.textContent = `Time: ${randomWod['time']}`
     rounds.textContent = `Rounds: ${randomWod['rounds']}`
     workout.textContent = randomWod['wod']
