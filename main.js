@@ -2,7 +2,7 @@ const wodName = document.querySelector('h2')
 const time = document.querySelector('#time')
 const rounds = document.querySelector('#rounds')
 const workout = document.querySelector('#wod')
-const nextBtn = document.querySelector('#next-button')
+const nextBtn = document.querySelector('button')
 let randomWod;
 
 
@@ -26,6 +26,11 @@ function displayWod(){
     workout.textContent = randomWod['wod']
 }
 displayWod();
+
 // next button to get next wod
 
-nextBtn.addEventListener('click', getRandomWod)
+nextBtn.addEventListener('click', function(e){
+    e.preventDefault()
+    getRandomWod()
+    displayWod()
+})
