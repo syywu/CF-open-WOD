@@ -6,12 +6,15 @@ import router from "./routes/wod.js";
 
 const PORT = process.env.PORT || "3000";
 const app = express();
+const url = "https://www.crossfit.com/workout";
 
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.static("public"));
 app.use("/api/wod", router);
 
-app.listen(PORT, function () {
+axios(url);
+
+app.listen(PORT, () => {
   console.log(`listening to port ${PORT}`);
 });
