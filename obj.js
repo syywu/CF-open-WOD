@@ -103,115 +103,46 @@ const workoutOfTheDay = [
     wod: "100 Double-Unders, 20 Overhead Squats, 100 Double-Unders, 12 Ring Muscle-Ups, 100 Double-Unders, 20 Dumbbell Snatches, 100 Double-Unders, 12 Bar Muscle-Ups"
 },
 {
-    name:// OPEN 18.2 & 18.2 A
-    // 2018 CrossFit Games Open WOD
-    // For Time
-    // 1-2-3-4-5-6-7-8-9-10 Reps of:
-    // Dumbbell Squats (2 x 50/35 lb)
-    // Bar-Facing Burpees
-    // Then, "18.2 A"
-    // 1 rep max Clean
-    // Time Cap: 12 minutes
-    time:
-    rounds:
-    wod:
+    name: "OPEN 18.2 & 18.2 A",
+    time: "12 minutes",
+    rounds: 1,
+    wod: " 1-2-3-4-5-6-7-8-9-10 Reps of: Dumbbell Squats, Bar-Facing Burpees. Then, 1 rep max Clean"
 },
 {
-    name:// OPEN 18.1
-    // 2018 CrossFit Games Open WOD
-    // AMRAP in 20 minutes
-    // 8 Toes-to-Bars
-    // 10 Dumbbell Hang Clean-and-Jerks (50/35 lb)
-    // 14/12 calorie Row
-    time:
-    rounds:
-    wod:
+    name: "OPEN 18.1",
+    time: "20 minutes",
+    rounds: 10,
+    wod: " 8 Toes-to-Bars, 10 Dumbbell Hang Clean-and-Jerks, 14/12 calorie Row"
 },
 {
-    name:
-    // OPEN 17.5
-    // 2017 CrossFit Games Open WOD
-    // 10 Rounds for Time
-    // 9 Thrusters (95/65 lb)
-    // 35 Double-Unders
-    time:
-    rounds:
-    wod:
+    name:"OPEN 17.5",
+    time: "15 minutes",
+    rounds: 10,
+    wod: "9 Thrusters, 35 Double-Unders"
 },
 {
-    name:// OPEN 17.4
-    // 2017 CrossFit Games Open WOD
-    // AMRAP in 13 minutes
-    // 55 Deadlifts (225/155 lb)
-    // 55 Wall Ball Shots (20/14 lb, 10/9 ft)
-    // 55 calorie Row
-    // 55 Handstand Push-Ups
-    time:
-    rounds:
-    wod:
+    name:"OPEN 17.4",
+    time: "13 minutes",
+    rounds: 2,
+    wod: "55 Deadlifts, 5 Wall Balls, 55 calories, 55 Handstand Push-Ups"
 },
 {
-    name: // OPEN 17.3
-    // 2017 CrossFit Games Open WOD
-    // For Reps
-    // Prior to 8 minutes, 3 rounds of:
-    // 6 Chest-to-Bar Pull-Ups
-    // 6 Squat Snatches (95/65 lb)
-    // Then 3 rounds of:
-    // 7 Chest-to-Bar Pull-Ups
-    // 5 Squat Snatches (135/95 lb)
-    // * Prior to 12 minutes, 3 rounds of:
-    // 8 Chest-to-Bar Pull-Ups
-    // 4 Squat Snatches (185/135 lb)
-    // * Prior to 16 minutes, 3 rounds of:
-    // 9 Chest-to-Bar Pull-Ups
-    // 3 Squat Snatches (225/155 lb)
-    // * Prior to 20 minutes, 3 rounds of:
-    // 10 Chest-to-Bar Pull-Ups
-    // 2 Squat Snatches (245/175 lb)
-    // * Prior to 24 minutes, 3 rounds of:
-    // 11 Chest-to-Bar Pull-Ups
-    // 1 Squat Snatch (265/185 lb)
-    time:
-    rounds:
-    wod:
+    name: "OPEN 17.3",
+    time: "24 minutes",
+    rounds: 3,
+    wod: "Prior to 8 minutes, 3 rounds of: 6 Chest-to-Bar Pull-Ups, 6 Squat Snatches. Then 3 rounds of: 7 Chest-to-Bar Pull-Ups, 5 Squat Snatches. Prior to 12 minutes, 3 rounds of: 8 Chest-to-Bar Pull-Ups, 4 Squat Snatches. Prior to 16 minutes, 3 rounds of: 9 Chest-to-Bar Pull-Ups, 3 Squat Snatches. Prior to 20 minutes, 3 rounds of: 10 Chest-to-Bar Pull-Ups, 2 Squat Snatches. Then, 11 Chest-to-Bar Pull-Ups, 1 Squat Snatch (265/185 lb)"
 },
 {
-    name: 
-    // OPEN 17.2
-    // 2017 CrossFit Games Open WOD
-    // AMRAP in 12 minutes
-    // 2 Rounds of:
-    // 50 ft Dumbbell Walking Lunges (50/35 lb)
-    // 16 Toe-to-Bars
-    // 8 Dumbbell Power Cleans (50/35 lb)
-    // Then, 2 Rounds of:
-    // 50 ft Dumbbell Walking Lunges (50/35 lb)
-    // 16 Bar Muscle-Ups
-    // 8 Dumbbell Power Cleans (50/35 lb)
-    time:
-    rounds:
-    wod:
+    name: "OPEN 17.2",
+    time: "12 minutes",
+    rounds: 2,
+    wod: "50 ft Dumbbell Walking Lunges, 16 Toe-to-Bars, 8 Dumbbell Power Cleans. Then, 2 Rounds of: 50 ft Dumbbell Walking Lunges, 16 Bar Muscle-Ups, 8 Dumbbell Power Cleans"
 },
 {
-    name: // OPEN 17.1
-    // 2017 CrossFit Games Open WOD
-    // For Time
-    // 10 Dumbbell Snatches (50/35 lb)
-    // 15 Burpee Box Jump Overs
-    // 20 Dumbbell Snatches (50/35 lb)
-    // 15 Burpee Box Jump Overs
-    // 30 Dumbbell Snatches (50/35 lb)
-    // 15 Burpee Box Jump Overs
-    // 40 Dumbbell Snatches (50/35 lb)
-    // 15 Burpee Box Jump Overs
-    // 50 Dumbbell Snatches (50/35 lb)
-    // 15 Burpee Box Jump Overs
-    
-    // Time Cap: 20 minutes
-    time:
-    rounds:
-    wod:
+    name: "OPEN 17.1",
+    time: "20 minutes",
+    rounds: 1,
+    wod: "10 Dumbbell Snatches (50/35 lb), 15 Burpee Box Jump Overs, 20 Dumbbell Snatches, 15 Burpee Box Jump Overs, 30 Dumbbell Snatches, 15 Burpee Box Jump Overs, 40 Dumbbell Snatches, 15 Burpee Box Jump Overs, 50 Dumbbell Snatches, 15 Burpee Box Jump Overs"
 },
 {
     name: // OPEN 16.5
@@ -600,18 +531,10 @@ const workoutOfTheDay = [
     rounds:
     wod:
 },
-{   name: // OPEN 11.6
-// 2011 CrossFit Games Open WOD
-// AMRAP in 7 minutes
-// 3 Thrusters (100/65 lb)
-// 3 Chest-to-Bar Pull-Ups
-// 6 Thrusters (100/65 lb)
-// 6 Chest-to-Bar Pull-Ups
-// 9 Thrusters (100/65 lb)
-// 9 Chest-to-Bar Pull-Ups
-    time:
-    rounds:
-    wod:
+{   name: "OPEN 11.6",
+    time: "7 minutes",
+    rounds: 3,
+    wod: "3 Thrusters, 3 Chest-to-Bar Pull-Ups, 6 Thrusters, 6 Chest-to-Bar Pull-Ups, 9 Thrusters, 9 Chest-to-Bar Pull-Ups"
 }
 ];
 console.log(workoutOfTheDay);
