@@ -67,107 +67,70 @@ const workoutOfTheDay = [
     wod: "10 Snatches, 12 Bar-Facing Burpees, 3 minutes Rest, 10 Bar Muscle-Ups, 12 Bar-Facing Burpees",
   },
   {
-    name: "open 21.3",
-    time: "15 minutes",
-    rounds: 3,
-    wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)",
+    name: "open 19.3",
+    time: "10 minutes",
+    rounds: 1,
+    wod: "200 foot Dumbbell Overhead Lunges, 50 Dumbbell Box Step-Ups, 50 Strict Handstand Push-Ups, 200 foot Handstand Walk",
   },
   {
-    name: "open 21.3",
-    time: "15 minutes",
-    rounds: 3,
-    wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)",
+    name: "open 19.2",
+    time: "20 minutes",
+    rounds: 1,
+    wod: " Beginning on an 8-minute clock, complete as many reps as possible of: 25 Toes-to-Bars, 50 Double-Unders, 15 Squat Cleans, 25 Toes-to-Bars, 50 Double-Unders, 13 Squat cleans. If completed before 8 minutes, add 4 minutes to the clock and proceed to: 25 Toes-to-Bars, 50 Double-Unders, 11 Squat Cleans. If completed before 12 minutes, add 4 minutes to the clock and proceed to: 25 Toes-to-Bars, 50 Double-Unders, 9 Squat Cleans. If completed before 16 minutes, add 4 minutes to the clock and proceed to: 25 Toes-to-Bars, 50 Double-Unders, 7 Squat Cleans",
   },
   {
-    name: "open 21.3",
+    name: "open 19.1",
     time: "15 minutes",
-    rounds: 3,
-    wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters (95/65 lb)",
+    rounds: 10,
+    wod: "19 Wall Ball, 19 calorie Row",
   },
+  {
+      name: "OPEN 18.5",
+      time: "7 minutes",
+      rounds: 9,
+      wod: "3 Thrusters, 3 Chest-to-Bar Pull-Ups, 6 Thrusters, 6 Chest-to-Bar Pull-Ups, 9 Thrusters, 9 Chest-to-Bar Pull-Ups"
+  },
+  {
+    name:
+    time:
+    rounds:
+    wod:
+},
+{
+    name:
+    time:
+    rounds:
+    wod:
+},
+{
+    name:
+    time:
+    rounds:
+    wod:
+},
+{
+    name:
+    time:
+    rounds:
+    wod:
+},
+{
+    name:
+    time:
+    rounds:
+    wod:
+},
+{
+    name:
+    time:
+    rounds:
+    wod:
+},
 ];
 console.log(workoutOfTheDay);
 
-// OPEN 19.4
-// 2019 CrossFit Games Open Workout #4
-// For Total Time
-// 3 Rounds of:
-//
-// Time cap:
-// To-Do
-// Favorites
-// Add to...
-// CrossFit Games Open, CrossFit Games (All Stages), CrossFit Games Open 2019
-// OPEN 19.3
-// 2019 CrossFit Games Open Workout #3
-// For Time
-// 200 foot Dumbbell Overhead Lunges (50/35 lb)
-// 50 Dumbbell Box Step-Ups (24/20 in)
-// 50 Strict Handstand Push-Ups
-// 200 foot Handstand Walk
-// Time Cap: 10 minutes
-// To-Do
-// Favorites
-// Add to...
-// CrossFit Games Open, CrossFit Games (All Stages), CrossFit Games Open 2019
-// 1,000'S MORE WODS
-// Endless Workout Ideas.
-// Special Filters.
-// No more ads.
-// Get More
-// OPEN 19.2
-// 2019 CrossFit Games Open Workout #2
-// AMRAP in 20 minutes
-// Beginning on an 8-minute clock, complete as many reps as possible of:
-// 25 Toes-to-Bars
-// 50 Double-Unders
-// 15 Squat Cleans (135/85 lb)
-// 25 Toes-to-Bars
-// 50 Double-Unders
-// 13 Squat cleans (185/115 lb)
 
-// If completed before 8 minutes, add 4 minutes to the clock and proceed to:
-// 25 Toes-to-Bars
-// 50 Double-Unders
-// 11 Squat Cleans (225/145 lb)
 
-// If completed before 12 minutes, add 4 minutes to the clock and proceed to:
-// 25 Toes-to-Bars
-// 50 Double-Unders
-// 9 Squat Cleans (275/175 lb)
-
-// If completed before 16 minutes, add 4 minutes to the clock and proceed to:
-// 25 Toes-to-Bars
-// 50 Double-Unders
-// 7 Squat Cleans (315/205 lb)
-
-// Time Cap: 20 minutes
-// To-Do
-// Favorites
-// Add to...
-// CrossFit Games Open, CrossFit Games (All Stages), CrossFit Games Open 2019
-// OPEN 19.1
-// 2019 CrossFit Games Open Workout #1
-// AMRAP in 15 minutes
-// 19 Wall Ball Shots (20/14 lb, 10/9 ft)
-// 19 calorie Row
-// To-Do
-// Favorites
-// Add to...
-// CrossFit Games Open, CrossFit Games (All Stages), CrossFit Games Open 2019
-// OPEN 18.5
-// 2018 CrossFit Games Open WOD
-// AMRAP in 7 minutes
-// 3 Thrusters (100/65 lb)
-// 3 Chest-to-Bar Pull-Ups
-// 6 Thrusters (100/65 lb)
-// 6 Chest-to-Bar Pull-Ups
-// 9 Thrusters (100/65 lb)
-// 9 Chest-to-Bar Pull-Ups
-// If you complete the round of 9, complete a round of 12, then go on to 15, etc.
-// To-Do
-// Favorites
-// Add to...
-// CrossFit Games Open, CrossFit Games (All Stages), CrossFit Games Open 2018
 // OPEN 18.4
 // 2018 CrossFit Games Open WOD #4
 // For Time
