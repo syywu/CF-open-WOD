@@ -163,88 +163,38 @@ const workoutOfTheDay = [
     wod: "10 Power Snatche, 3 Bar Muscle-Ups"
 },
 {
-    name: // OPEN 16.2
+    name:  "16.2",
     // 2016 CrossFit Games Open WOD
-    // AMRAP in 20 minutes
+    // AMRAP in 
     // Continue until 4 minutes:
-    // 25 Toes-to-Bars
-    // 50 Double-Unders
-    // 15 Squat Cleans (135/85 lb)
-    // If completed before 4 minutes, continue until 8 minutes:
-    // 25 Toes-to-Bars
-    // 50 Double-Unders
-    // 13 Squat Cleans (185/115 lb)
-    // If completed before 8 minutes, continue until 12 minutes:
-    // 25 Toes-to-Bars
-    // 50 Double-Unders
-    // 11 Squat Cleans (225/145 lb)
-    // If completed before 12 minutes, continue until 16 minutes:
-    // 25 Toes-to-Bars
-    // 50 Double-Unders
-    // 9 Squat Cleans (275/175 lb)
-    // If completed before 16 minutes, continue until 20 minutes:
-    // 25 Toes-to-Bars
-    // 50 Double-Unders
-    // 7 Squat Cleans (315/205 lb)
-    time:
-    rounds:
-    wod:
+    // 
+    time: "20 minutes",
+        rounds: 1,
+    wod: "25 Toes-to-Bars, 50 Double-Unders, 15 Squat Cleans. If completed before 4 minutes, continue until 8 minutes: 25 Toes-to-Bars, 50 Double-Unders, 13 Squat Cleans, If completed before 8 minutes, continue until 12 minutes: 25 Toes-to-Bars, 50 Double-Unders, 11 Squat Cleans. If completed before 12 minutes, continue until 16 minutes: 25 Toes-to-Bars, 50 Double-Unders, 9 Squat Cleans. If completed before 16 minutes, continue until 20 minutes: 25 Toes-to-Bars, 50 Double-Unders, 7 Squat Cleans (315/205 lb)"
 },
 {
-    name: // OPEN 16.1
-    // 2016 CrossFit Games Open WOD
-    // AMRAP in 20 minutes
-    // 25 foot Overhead Walking Lunges (95/65 lb)
-    // 8 Bar Facing Burpees
-    // 25 foot Overhead Walking Lunges (95/65 lb)
-    // 8 Chest-to-Bar Pull-Ups
-    time:
-    rounds:
-    wod:
+    name: "OPEN 16.1",
+    time: "20 minutes",
+    rounds: 10,
+    wod: "25 foot Overhead Walking Lunges, 8 Bar Facing Burpees, 25 foot Overhead Walking Lunges, 8 Chest-to-Bar Pull-Ups"
 },
 {
-    name: // OPEN 15.5
-    // 2015 CrossFit Games Open WOD
-    // 27-21-15-9 Reps for Time
-    // Row (calories)
-    // Thrusters (95/65 lb)
-    time:
-    rounds:
-    wod:
+    name: "OPEN 15.5",
+    time: "15 minutes",
+    rounds: 1,
+    wod: "27-21-15-9 Reps for Time: Cals, Thrusters"
 },
 {
-    name:"OPEN 15.4"
-    // 2015 CrossFit Games Open WOD
-    // AMRAP in 8 minutes
-    // 3 Handstand Push-Ups
-    // 3 Cleans (185/125 lb)
-    // 6 Handstand Push-Ups
-    // 3 Cleans (185/125 lb)
-    // 9 Handstand Push-Ups
-    // 3 Cleans (185/125 lb)
-    // 12 Handstand Push-Ups
-    // 6 Cleans (185/125 lb)
-    // 15 Handstand Push-Ups
-    // 6 Cleans (185/125 lb)
-    // 18 Handstand Push-Ups
-    // 6 Cleans (185/125 lb)
-    // 21 Handstand Push-Ups
-    // 9 Cleans (185/125 lb)
-    // Etc., following same pattern until time is up
-    time:
-    rounds:
-    wod:
+    name:"OPEN 15.4",
+    time: "8 minutes",
+    rounds: 1,
+    wod: "3 Handstand Push-Ups, 3 Cleans, 6 Handstand Push-Ups, 3 Cleans, 9 Handstand Push-Ups, 3 Cleans, 12 Handstand Push-Ups, 6 Cleans (185/125 lb), 15 Handstand Push-Ups,  6 Cleans, 18 Handstand Push-Ups, 6 Cleans, 21 Handstand Push-Ups, 9 Cleans"
 },
 {
-    name: // OPEN 15.3
-    // 2015 CrossFit Games Open WOD
-    // AMRAP in 14 minutes
-    // 7 Muscle-Ups
-    // 50 Wall Ball Shots (20/14 lb)
-    // 100 Double-Unders
-    time:
-    rounds:
-    wod:
+    name:"OPEN 15.3",
+    time: "14 minutes",
+    rounds: 3,
+    wod: "7 Muscle-Ups, 50 Wall Ball Shots, 100 Double-Unders"
 },
 {
     name: // OPEN 15.2
