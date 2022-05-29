@@ -145,36 +145,22 @@ const workoutOfTheDay = [
     wod: "10 Dumbbell Snatches (50/35 lb), 15 Burpee Box Jump Overs, 20 Dumbbell Snatches, 15 Burpee Box Jump Overs, 30 Dumbbell Snatches, 15 Burpee Box Jump Overs, 40 Dumbbell Snatches, 15 Burpee Box Jump Overs, 50 Dumbbell Snatches, 15 Burpee Box Jump Overs"
 },
 {
-    name: // OPEN 16.5
-    // 2016 CrossFit Games Open WOD
-    // 21-18-15-12-9-6-3 Reps For Time
-    // Thrusters (95/65 lb)
-    // Bar Facing Burpees
-    time:
-    rounds:
-    wod:
+    name: "OPEN 16.5",
+    time: "15 minutes",
+    rounds: 1,
+    wod: "21-18-15-12-9-6-3 Reps For Time, Thrusters, Bar Facing Burpees"
 },
 {
-    name: // OPEN 16.4
-    // 2016 CrossFit Games Open WOD
-    // AMRAP in 13 minutes
-    // 55 Deadlifts (225/155 lb)
-    // 55 Wall Ball Shots (20/14 lb)
-    // 55 calorie Row
-    // 55 Handstand Push-Ups
-    time:
-    rounds:
-    wod:
+    name: "OPEN 16.4",
+    time: "13 minutes",
+    rounds: 1,
+    wod: "55 Squats, 55 Pull Ups, 55 calorie Row, 55 Push-Ups"
 },
 {
-    name: // OPEN 16.3
-    // 2016 CrossFit Games Open WOD
-    // AMRAP in 7 minutes
-    // 10 Power Snatches (75/55 lb)
-    // 3 Bar Muscle-Ups
-    time:
-    rounds:
-    wod:
+    name: " OPEN 16.3",
+    time: "7 minutes",
+    rounds: 3,
+    wod: "10 Power Snatche, 3 Bar Muscle-Ups"
 },
 {
     name: // OPEN 16.2
