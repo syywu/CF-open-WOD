@@ -197,37 +197,16 @@ const workoutOfTheDay = [
     wod: "7 Muscle-Ups, 50 Wall Ball Shots, 100 Double-Unders"
 },
 {
-    name: // OPEN 15.2
-    // 2015 CrossFit Games Open WOD
-    // For As Long As Possible
-    // From 0:00-3:00, 2 rounds of:
-    // 10 Overhead Squats (95/65 lb)
-    // 10 Chest-to-Bar Pull-Ups
-    
-    // From 3:00-6:00, 2 rounds of:
-    // 12 Overhead Squats (95/65 lb)
-    // 12 Chest-to-Bar Pull-Ups
-    
-    // From 6:00-9:00, 2 rounds of:
-    // 14 Overhead Squats (95/65 lb)
-    // 14 Chest-to-Bar Pull-Ups
-    time:
-    rounds:
-    wod:
+    name: "OPEN 15.2",
+    time: "9 minutes",
+    rounds: 2,
+    wod: "From 0:00-3:00, 2 rounds of: 10 Overhead Squats, 10 Chest-to-Bar Pull-Ups. From 3:00-6:00, 2 rounds of: 12 Overhead Squats, 12 Chest-to-Bar Pull-Ups. From 6:00-9:00, 2 rounds of: 14 Overhead Squats, 14 Chest-to-Bar Pull-Ups"
 },
 {
-    name: "OPEN 15.1 & 15.1A"
-    // 2015 CrossFit Games Open WOD
-    // Two Parts in 15 minutes
-    // (15.1) AMRAP in 9 minutes
-    // 15 Toes-to-Bars
-    // 10 Deadlifts (115/75 lb)
-    // 5 Snatches (115/75 lb)
-    // Then ("15.1A"), from 9:00-15:00
-    // 1-Rep-Max Clean-and-Jerk
-    time:
-    rounds:
-    wod:
+    name: "OPEN 15.1 & 15.1A",
+    time: "15 minutes",
+    rounds: 3,
+    wod: "15 Toes-to-Bars, 10 Deadlifts, 5 Snatches. Then 151A, from 9:00-15:00: 1-Rep-Max Clean-and-Jerk"
 },
 {
     name: // OPEN 14.5
