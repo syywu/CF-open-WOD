@@ -4,7 +4,7 @@ import axios from "axios";
 import logger from "morgan";
 import router from "./routes/wod.js";
 
-const PORT = process.env.PORT || "3000";
+const PORT = process.env.PORT;
 const app = express();
 // const url = "https://www.crossfit.com/workout?page=";
 

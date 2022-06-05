@@ -1,3 +1,4 @@
+const url = "/api";
 const wodName = document.querySelector("h2");
 const time = document.querySelector("#time");
 const rounds = document.querySelector("#rounds");
@@ -7,11 +8,12 @@ let randomWod;
 
 // get random wod and displays it
 // workout random
-function getRandomWod() {
-  let random = Math.floor(Math.random() * workoutOfTheDay.length);
-  randomWod = workoutOfTheDay[random];
-  return randomWod;
+async function getRandomWod() {
+  await fetch(`${url}/wod`);
 }
+// let random = Math.floor(Math.random() * workoutOfTheDay.length);
+// randomWod = workoutOfTheDay[random];
+// return randomWod;
 
 function displayWod() {
   wodName.textContent = randomWod["name"].toUpperCase();
