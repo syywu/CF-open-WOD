@@ -23,7 +23,7 @@ function App() {
         <p>Hello Vite + React!</p>
         <p>
           <button type="button" onClick={() => handleClick()}>
-            count is: {count}
+            Next WOD
           </button>
         </p>
         <p>
