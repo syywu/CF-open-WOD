@@ -1,6 +1,8 @@
-const Display = ({workout}) => {
+const Display = ({workouts}) => {
     return (  
-        <div className="display">{workout}</div>
+        <div className="display">
+            {workouts}
+            </div>
     );
 }
  

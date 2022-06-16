@@ -5,18 +5,18 @@ import Display from './Display'
 function App() {
 
     const [isPending, setisPending] = useState(true)
-    const [workout, setWorkout] = useState(null)
+    const [workouts, setWorkouts] = useState(null)
     
 
     async function getData(){
       let res = await fetch('http://localhost:8000/api/wod')
-      let data = await res.text()
-      return data
+      let data = await res.json()
+      return data.payload
     }
    
   async function handleClick(){
     let data = await getData()
-    setWorkout(data)
+    setWorkouts(data)
     console.log(data)
   }
 
@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-     <Display workout={workout}/>
+     <Display workout={workouts}/>
           <button type="button" onClick={() => handleClick()}>
             Next WOD
           </button>
