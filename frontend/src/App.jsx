@@ -4,18 +4,18 @@ import './App.css'
 function App() {
 
     const [isPending, setisPending] = useState(true)
+    const [workout, setWorkout] = useState(null)
+    
 
-  useEffect(()=>{
     async function getData(){
       let res = await fetch('http://localhost:8000/api/wod')
       let data = await res.text()
       return data
     }
-    getData()
-  })
    
   async function handleClick(){
     let data = await getData()
+    setWorkout(data)
     console.log(data)
   }
 
