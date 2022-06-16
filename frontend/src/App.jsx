@@ -1,19 +1,24 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
-async function getData(){
-  let res = await fetch('http://localhost:8000/api/wod')
-  let data = await res.text()
-  return data
-}
-
-async function handleClick(){
-  let data = await getData()
-  console.log(data)
-}
-
 function App() {
-  // const [count, setCount] = useState(0)
+
+    const [isPending, setisPending] = useState(true)
+
+  useEffect(()=>{
+    async function getData(){
+      let res = await fetch('http://localhost:8000/api/wod')
+      let data = await res.text()
+      return data
+    }
+    getData()
+  })
+   
+  async function handleClick(){
+    let data = await getData()
+    console.log(data)
+  }
+
 
   return (
     <div className="App">
