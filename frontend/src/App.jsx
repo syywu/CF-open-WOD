@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import Display from './Display'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+     <Display workout={workout}/>
           <button type="button" onClick={() => handleClick()}>
             Next WOD
           </button>
