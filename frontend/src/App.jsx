@@ -3,7 +3,6 @@ import "./App.css";
 import Display from "./Display";
 
 function App() {
-  const [isPending, setisPending] = useState(true);
   const [workouts, setWorkouts] = useState(null);
 
   async function getData() {
@@ -21,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Display workouts={workouts} />
+        {workouts && <Display workouts={workouts} />}
         <button type="button" onClick={() => handleClick()}>
           Next WOD
         </button>
