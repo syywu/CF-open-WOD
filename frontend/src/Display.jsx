@@ -3,8 +3,12 @@ const Display = ({ workouts }) => {
     <div className="display">
       {workouts.map((workout) => (
         <div>
+          <p>{workout.key}</p>
           <p>{workout.wod_id}</p>
           <p>{workout.name}</p>
+          <p>{workout.time}</p>
+          <p>{workout.rounds}</p>
+          <p>{workout.wod}</p>
         </div>
       ))}
     </div>

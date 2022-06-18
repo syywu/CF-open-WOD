@@ -5,6 +5,7 @@ export const workoutOfTheDay = [
     rounds: 3,
     wod: "15 Front Squats, 30 Toes-to-Bars, 15 Thrusters",
   },
+
   {
     name: "OPEN 21.4",
     time: "7 minutes",
