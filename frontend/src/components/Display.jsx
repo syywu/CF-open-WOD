@@ -1,17 +1,14 @@
 const Display = ({ workouts }) => {
   return (
     <div className="display">
-      {workouts}
-      {/* {workouts.map((workout) => (
-        <div>
-          <p>{workout.key}</p>
-          <p>{workout.wod_id}</p>
+      {workouts.map((workout) => (
+        <div key={workout.wod_id}>
           <p>{workout.name}</p>
-          <p>{workout.time}</p>
-          <p>{workout.rounds}</p>
+          <p>time: {workout.time}</p>
+          <p>rounds: {workout.rounds}</p>
           <p>{workout.wod}</p>
         </div>
-      ))} */}
+      ))}
     </div>
   );
 };
