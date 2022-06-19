@@ -1,7 +1,8 @@
 const Display = ({ workouts }) => {
   return (
     <div className="display">
-      {workouts.map((workout) => (
+      {workouts}
+      {/* {workouts.map((workout) => (
         <div>
           <p>{workout.key}</p>
           <p>{workout.wod_id}</p>
@@ -10,7 +11,7 @@ const Display = ({ workouts }) => {
           <p>{workout.rounds}</p>
           <p>{workout.wod}</p>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 };
