@@ -3,9 +3,9 @@ const Display = ({ workouts }) => {
     <div className="display">
       {workouts.map((workout) => (
         <div key={workout.wod_id}>
-          <p>{workout.name}</p>
-          <p>time: {workout.time}</p>
-          <p>rounds: {workout.rounds}</p>
+          <p>{workout.name.toUpperCase()}</p>
+          <p>Time: {workout.time}</p>
+          <p>Rounds: {workout.rounds}</p>
           <p>{workout.wod}</p>
         </div>
       ))}
