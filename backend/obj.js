@@ -164,10 +164,10 @@ export const workoutOfTheDay = [
     wod: "10 Power Snatche, 3 Bar Muscle-Ups",
   },
   {
-    name: "16.2",
+    name: "open 16.2",
     time: "20 minutes",
     rounds: 0,
-    wod: "25 Toes-to-Bars, 50 Double-Unders, 15 Squat Cleans. If completed before 4 minutes, continue until 8 minutes: 25 Toes-to-Bars, 50 Double-Unders, 13 Squat Cleans, If completed before 8 minutes, continue until 12 minutes: 25 Toes-to-Bars, 50 Double-Unders, 11 Squat Cleans. If completed before 12 minutes, continue until 16 minutes: 25 Toes-to-Bars, 50 Double-Unders, 9 Squat Cleans. If completed before 16 minutes, continue until 20 minutes: 25 Toes-to-Bars, 50 Double-Unders, 7 Squat Cleans (315/205 lb)",
+    wod: "25 Toes-to-Bars, 50 Double-Unders, 15 Squat Cleans. If completed before 4 minutes, continue until 8 minutes: 25 Toes-to-Bars, 50 Double-Unders, 13 Squat Cleans, If completed before 8 minutes, continue until 12 minutes: 25 Toes-to-Bars, 50 Double-Unders, 11 Squat Cleans. If completed before 12 minutes, continue until 16 minutes: 25 Toes-to-Bars, 50 Double-Unders, 9 Squat Cleans. If completed before 16 minutes, continue until 20 minutes: 25 Toes-to-Bars, 50 Double-Unders, 7 Squat Cleans",
   },
   {
     name: "OPEN 16.1",
