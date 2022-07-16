@@ -1,7 +1,7 @@
 # base layer
 FROM node:16-alpine
 
-# use nodemon to strat app inside container
+# use nodemon to start app inside container
 RUN npm install -g nodemon
 
 WORKDIR /app
