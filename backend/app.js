@@ -3,7 +3,7 @@ import logger from "morgan";
 import router from "./routes/wod.js";
 import cors from "cors";
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.use(logger("dev"));
@@ -11,7 +11,7 @@ app.use(cors());
 app.use("/api/wod", router);
 
 app.get("/", (req, res) => {
-  res.render("index", { title: "home" });
+  res.send("Hi from root route");
 });
 
 app.listen(PORT, () => {
